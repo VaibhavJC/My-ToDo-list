@@ -1,0 +1,170 @@
+*{
+   margin: 0px;
+    padding: 0px;
+}
+
+@media(min-width:1200px){
+    
+body{
+    background-image:linear-gradient(to right,#E5B8F4, #FB2576);
+}
+
+.intro-text{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.simple-text{
+    font-size: 100px;
+    font-family: 'La Belle Aurore', cursive;
+    text-shadow: 2px 2px #fff;
+}
+
+.todo-container{
+    width: 70%;
+    margin-left: 400px;
+}
+
+.todo-card{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    font-family: 'La Belle Aurore', cursive;
+    color: #fff;
+    border: 2px solid #fff;
+    background-color: #282A3A;
+    padding: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.todo-card:hover{
+    
+    box-shadow: 5px 5px 10px black;
+}
+
+.upldBtn{
+    width: 12%;
+    padding: 10px;
+    border-width: 0px;
+    border-radius: 5px;
+    background-color: #00FFF6;  
+    font-size: 18px;
+}
+
+.upldBtn:hover{
+    box-shadow: 2px 2px 5px #000;
+}
+
+.deleteBtn{
+    width: 10%;
+    color: #fff;
+    background-color: #FB2576;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+}
+
+#inpElement{
+    width: 600px;
+    padding: 10px;
+    border-width: 0px;
+    border-radius:50px ;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+}
+
+@media(max-width :450px){
+
+body{
+    background-color: #FF94CC;
+}
+
+.intro-text{
+    width: 269vw;
+    border: 1px solid black;
+    background-color:#282A3A;
+}
+
+.simple-text{
+    font-size: 10em;
+    display: flex;
+    font-family: 'La Belle Aurore', cursive;
+    text-shadow: 10px 10px 15px #FA26A0;
+    justify-content: center;
+    color: #fff;
+}
+
+.todo-container{
+    width: 250vw;
+    margin-top: 10vh;
+    margin-left: 5vw;
+}
+
+#inpElement{
+    width: 190vw;
+    padding: 2vh;
+    border-width: 0px;
+    border-radius:50px;
+    margin-right: 10px;
+    margin-bottom: 6vh;
+    margin-left: 5vw;
+    font-size: 3em;
+    margin-top: 3vh;
+    box-shadow: 10px 10px 10px black;
+}
+
+
+.todo-card{
+    width: 180vw;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5vw;
+    font-size: 3em;
+    font-family: 'La Belle Aurore', cursive;
+    color: #fff;
+    border: 5px solid #fff;
+    background-color: #282A3A;
+    padding: 10px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    margin-bottom: 4vh;
+    box-shadow: 10px 10px 20px black;
+}
+
+span{
+    display: flex;
+    margin-left: .5em;
+}
+
+.upldBtn{
+    width: 40vw;
+    padding: 1vh;
+    border-width: 0px;
+    border-radius: 10px;
+    background-color: #F8FFDB;  
+    font-size: 5vh;
+    border: 4px solid #570A57;
+}
+
+.upldBtn:hover{
+    box-shadow: 2px 2px 5px #000;
+}
+
+.deleteBtn{
+    width: 10%;
+    color: #fff;
+    background-color: #FB2576;
+    font-size: 1em;
+    border: 0px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+}
+
+
+}
